@@ -14,7 +14,7 @@ class loginPage():
     # 微信登录
     def wechat(self):
         # 点击公众号
-        self.driver_i.find_element(('xpath', '//*[@text="健康随身易测试环境一"]')).click()
+        self.driver_i.find_element(('xpath', '//*[@text="************"]')).click()
         log.info("微信登录")
         log.info("跳转随身易个人中心")
         # 点击个人中心，未登录，则自动跳转登录页面
